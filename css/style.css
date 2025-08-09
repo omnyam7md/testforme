@@ -1,0 +1,172 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+      font-family: "Poppins", sans-serif;
+
+}
+
+h1, h2, h3, h4, h5, h6{
+      font-family: "Montserrat", sans-serif;
+
+}
+
+.fs-14{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.fs-18{
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.fs-50{
+    font-size: 50px;
+    font-weight: 800;
+}
+.fs-60{
+    font-size: 60px;
+    font-weight: 200;
+}
+
+
+.header-contact{
+    background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.7)), url(../images/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+nav.navbar.navbar-light .nav-link {
+  color: white;
+}
+.navbar-light .navbar-brand {
+  color: white;
+}
+
+
+
+.navbar-light .nav-link {
+  position: relative; 
+  padding-bottom: 2px; 
+  transition: color 0.3s ease;
+}
+
+.navbar-light .nav-link.active {
+  color: white;
+}
+
+.navbar-light .nav-link.active::after {
+  content: "";
+  position: absolute;
+  left: 14%;
+  bottom: 0;
+  width: 70%;        
+  height: 2px;       
+  background-color: white;
+}
+
+.content-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.content-center2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#home h2::after {
+  content: "";
+  white-space: nowrap;
+  overflow: hidden;
+  animation: moveword 8s infinite;
+  font-size: 60px;
+  font-weight: 400;
+}
+@keyframes moveword {
+  0% { content: ""; }
+  1.5% { content: "D|"; }
+  3% { content: "De|"; }
+  4.5% { content: "Dev|"; }
+  6% { content: "Deve|"; }
+  7.5% { content: "Devel|"; }
+  9% { content: "Develo|"; }
+  10.5% { content: "Develop|"; }
+ 12% { content: "Develope|"; }
+  13.5% { content: "Developer|"; }
+  15% { content: "Developer|"; }
+  16.5% { content: "Developer|"; }
+  18% { content: "Developer|"; }
+
+  18%, 19.5% { content: "Developer|"; } 
+
+  21% { content: "Develope|"; }
+  22.5% { content: "Develop|"; }
+  24% { content: "Develo|"; }
+  25.5% { content: "Devel|"; }
+  27% { content: "Deve|"; }
+  28.5% { content: "Dev|"; }
+  30.5% { content: "De|"; }
+  31.5% { content: "D|"; }
+  31.5%, 33% { content:"";}
+
+  34.5% { content: "D|"; }
+  36% { content: "De|"; }
+  37.5% { content: "Des|"; }
+  39% { content: "Desi|"; }
+  40.5% { content: "Desig|"; }
+  42% { content: "Design|"; }
+  43.5% { content: "Designe|"; }
+  45% { content: "Designer|"; }
+  45%, 46.5% { content: "Designer|"; }
+
+  48% { content: "Designer|"; }
+  49.5% { content: "Designe|"; }
+  51% { content: "Design|"; }
+  52.5% { content: "Desig|"; }
+  54% { content: "Desi|"; }
+  55.5% { content: "Des|"; }
+  57% { content: "De|"; }
+  58.5% { content: "D|"; }
+  58.5%, 60% { content: ""; }
+
+
+    61.5% { content: "L|"; }
+    63% { content: "La|"; }
+    64.5% { content: "Lar|"; }
+    66% { content: "Larr|"; }
+    67.5% { content: "Larry|"; }
+    69% { content: "LLarry|"; }
+    70.5% { content: "LLarry D|"; }
+    72% { content: "LLarry Da|"; }
+    73.5% { content: "LLarry Dan|"; }
+    75% { content: "LLarry Dani|"; }
+    76.5% { content: "LLarry Danie|"; }
+    78% { content: "LLarry Daniel|"; }
+    79.5% { content: "LLarry Daniels|"; }
+    79.5%, 81%{ content: "LLarry Daniels|"; }
+
+    82.5% { content: "LLarry Daniels|"; }
+    84% { content: "LLarry Daniel|"; }
+    85.5% { content: "LLarry Danie|"; }
+    87% { content: "LLarry Dani|"; }
+    89.5% { content: "LLarry Dan|"; }
+    91% { content: "LLarry Da|"; }
+    92% { content: "LLarry D|"; }
+    93% { content: "LLarry|"; }
+    94% { content: "LLarr|"; }
+    95% { content: "LLar|"; }
+    96% { content: "LLa|"; }
+    97% { content: "LL|"; }
+    98% { content: "L|"; }
+    98%, 100% { content: ""; }
+
+
+}
