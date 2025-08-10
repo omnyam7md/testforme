@@ -1,18 +1,8 @@
-@media (max-width: 576px) {
-  .fs-14 {
-    font-size: 12px;
-  }
-  .fs-18 {
-    font-size: 14px;
-  }
-  .fs-50 {
-    font-size: 28px;
+@media (max-width: 768px) {
+  .fs-40 {
+    font-size: 28px; /* حجم أصغر للموبايل */
   }
   .fs-60 {
-    font-size: 30px;
-  }
-
-  #home h2::after {
-    font-size: 30px;
+    font-size: 38px; /* حجم أصغر للموبايل */
   }
 }
